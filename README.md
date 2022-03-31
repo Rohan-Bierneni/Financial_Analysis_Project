@@ -1,7 +1,7 @@
 # Financial_Analysis_Project
 Analyzes and build graphs of various bank's stock data from 2006 to 2016
 
-##Description
+#Description
 Uses Python in Jupityer Notebooks for this project. Pulls data from the web (Yahoo) using the library Pandas_Datareader in adjacent to Pandas and Numpy libraries creating a dataframe of the High, Low, Open, Close, Volume, and Adj Close prices for everyday during the time period. 
 
 Initialzes another dataframe that contains the percent change of stock for each day (returns) and builds a pairplot from this dataframe using matplotlib.pyplot. Calculates the standard deviation as well as the day of the highest closing price and day of the lowest closing price for each bank. Moreover, creates histplots with a probability density curve of the returns of City Group and Morgan Stanley.
